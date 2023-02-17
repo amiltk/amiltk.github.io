@@ -1,0 +1,158 @@
+.title {
+  border-bottom: 3px solid black;
+  font-family: Arial;
+  font-size: 30pt;
+  text-decoration: bold;
+  text-align: center;
+ }
+
+.description {
+	text-align: center;
+	font-size:8pt;
+	font-family: Arial;
+
+}
+.teamtitle {
+  text-decoration: underline;
+  font-family: Arial;
+  font-size: 24pt;
+  text-decoration: bold;
+}
+.teams {
+	font-family: Arial;
+	text-align: left;
+	padding-right: 44px;
+	padding-bottom: 50px;
+	opacity: .4;
+}	
+
+.standings {
+	font-family:Arial;
+	font-size: 20pt;
+	text-decoration: underline;
+	text-decoration: bold;
+	margin-top: -860px;
+	margin-left: 500px;	
+}
+
+.content {
+	font-family: Arial;
+	text-align: center;
+}
+	
+.goals {
+	font-family:Arial;
+	font-size: 26pt;
+	text-decoration: underline;
+	text-decoration: bold;
+	background-color: lightblue;
+	margin-left: 500px;
+	text-align: left;
+	opacity: 0.8;
+}
+
+table th, td {
+	font-family: Arial;
+	border: 1px solid black;
+}
+.header5 {
+font-family: Arial;
+	font-size: 16pt;
+	text-decoration: bold;
+	text-align: left;
+	background-color: lightblue;
+	text-decoration: underline;
+	margin-left: 500px;
+	text-align: left;
+	opacity: 0.8;
+}
+
+
+.internal {
+	font-family:Arial;
+	font-size: 16pt;
+	text-decoration: underline;
+	text-decoration: bold;
+	display: inline-block;
+	background-color: lightblue;
+	margin-left: 500px;
+	text-align: left;
+	opacity: 0.8;
+	
+}
+
+
+.footer {
+  border-top: 3px solid black;
+  font-family: Arial;
+  font-size: 20pt;
+  text-decoration: bold;
+  background-color: lightblue;
+}
+
+.navmenu {
+	  display: block;
+  padding: 8px;
+  background-color: lightgreen;
+  float: left;
+  font-size: 15px;
+  text-align: right;
+}
+
+.all {
+	background-color: lightblue;
+}
+.tables {
+	background-color: lightblue;
+	font-family: Arial;
+	margin-left: 500px;
+	text-align: left;
+	opacity: 0.8;
+	
+	
+}
+
+.tables2 {
+	background-color: lightblue;
+	font-family: Arial;
+	margin-left: 500px;
+	text-align: left;
+	opacity: 0.8;
+	
+	
+}
+.swap {
+	background-color: lightblue;
+	
+}
+
+.others {
+	background-color: lightblue;
+	font-size: 12pt;
+	font-family: Arial;
+}
+
+#link { 
+color: purple;
+}
+
+#link:hover {
+color: black;
+}
+
+#link:visited {
+	color: brown;
+}
+
+#link2 { 
+color: purple;
+}
+
+#link2:hover {
+color: black;
+}
+
+#link2:visited {
+	color: brown;
+}
+

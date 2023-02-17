@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <link  Id='csslink' href='main.css' rel="stylesheet">
+	  <script>
+        function toggleCSS() {
+          // Obtains the <link> element that links to the css (by using its id).
+          var currentCSS = document.getElementById('csslink');
+
+          // Change the value of href attribute to change the css file.
+          if (currentCSS.getAttribute('href') == 'main.css') {
+            currentCSS.setAttribute('href', 'alternate.css');
+          } else {
+            currentCSS.setAttribute('href', 'main.css');
+          }
+      }
+	  </script>
+   </head>
+
+
+
+<div class="others">
+
+<title>Kai Havertz</title>
+<header>Kai Havertz</header>
+<p> He is 23 years old and he was born June 11th, 1999.</p>
+
+<div class="a5">
+	<img src="kai.jpg" width="300" height="300">
+</div>
+
+
+<div class="a6">
+		<a id="link" href="index.html"><p>Back to Main<p></a>
+	</div>
+	<button onclick="toggleCSS()">
+	Switch Style    
+    </button>
+
+</div>
+
+
+<div class="footer">
+<footer> &copy 2023, Anthony Miltko, USF </footer>
+</div>

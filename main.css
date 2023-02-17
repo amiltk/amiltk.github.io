@@ -1,0 +1,166 @@
+.title {
+  border-bottom: 10px solid black;
+  font-family: Courier New;
+  font-size: 16pt;
+  text-decoration: bold;
+  text-align: center;
+  color: red;
+ }
+
+.description {
+	text-align: center;
+	font-size:10pt;
+	font-family: Courier New;
+	  color: red;
+	  border-bottom: 10px solid black;
+
+}
+.teamtitle {
+  font-family: Courier New;
+  font-size: 14pt;
+  text-decoration: bold;
+    color: red;
+}
+.teams {
+	font-family: Courier New;
+	display: flex;
+	justify-content: space-evenly;
+	text-align: center;
+	margin-left: -200px;
+	  color: red;
+
+}	
+
+
+.standings {
+	font-family: Courier New;
+	font-size: 12pt;
+	text-decoration: bold;
+	  color: red;
+
+}
+
+.content {
+	font-family: Courier New;
+	  color: red;
+	 
+}
+	
+.goals {
+
+	font-family: Courier New;
+	font-size: 12pt;
+	text-decoration: bold;
+	background-color: lightyellow;
+	  color: red;
+}
+
+table th, td {
+	font-family: Courier New;
+	border: 1px solid black;
+	  color: red;
+}
+.header5 {
+font-family: Courier New;
+	font-size: 12pt;
+	text-decoration: bold;
+	text-align: left;
+background-color: lightyellow;
+  color: red;
+  border-top: 10px solid black;
+}
+
+
+.internal {
+	font-family: Courier New;
+	font-size: 12pt;
+	text-decoration: bold;
+	text-align: left;
+	display: inline-block;
+	background-color: lightyellow;
+	  color: red;
+	
+}
+
+
+.footer {
+  border-top: 10px solid black;
+  font-family: Courier New;
+  font-size: 12pt;
+  text-decoration: bold;
+  background-color: lightyellow;
+    color: red;
+}
+
+.navmenu {
+	  display: block;
+  padding: 8px;
+  background-color: black;
+  float: left;
+  font-size: 12px;
+    color: red;
+	border-bottom: 10px solid black;
+}
+
+.all {
+	background-color: lightyellow;
+	  color: red;
+}
+.tables {
+	background-color: lightyellow;
+	font-family: Courier New;
+	  color: red;
+	
+}
+
+.swap {
+	background-color: lightyellow;
+	  color: red;
+}
+
+.others {
+	background-color: lightyellow;
+	  color: red;
+	  font-size: 20pt;
+	  font-family: Courier New;
+}
+
+#link { 
+color: orange;
+}
+
+#link:hover {
+color: black;
+}
+
+#link:visited {
+	color: green;
+}
+
+#link2 { 
+color: orange;
+}
+
+#link2:hover {
+color: white;
+}
+
+#link2:visited {
+	color: green;
+}
+
+@keyframes an{
+  0%   {background-color: purple;}
+  25%  {background-color: green;}
+  50%  {background-color: blue;}
+  100% {background-color: pink;}
+}
+
+.animation1{
+  width: 1250px;
+  background-color: black;
+  animation-name: an;
+  animation-duration: 4s;
+  height: 10px;
+  animation-iteration-count: infinite;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <link  Id='csslink' href='main.css' rel="stylesheet">
+	  <script>
+        function toggleCSS() {
+          // Obtains the <link> element that links to the css (by using its id).
+          var currentCSS = document.getElementById('csslink');
+
+          // Change the value of href attribute to change the css file.
+          if (currentCSS.getAttribute('href') == 'main.css') {
+            currentCSS.setAttribute('href', 'alternate.css');
+          } else {
+            currentCSS.setAttribute('href', 'main.css');
+          }
+      }
+	  </script>
+   </head>
+
+
+
+<div class="others">
+
+<title>Leandro and Martin</title>
+<header>Leandro Trossard</header>
+<p>They are both tied at 8 goals each for the season.Leandro is 28 years old and was born December 4th, 1994. </p>
+
+<div class="a5">
+	<img src="leandro.avif" width="300" height="300">
+</div>
+
+<p>Martin Ødegaard</p>
+<p>Martin is 24 years old and was born December 17th, 1998. </p>
+
+<div class="a5">
+	<img src="martin.jfif" width="300" height="300">
+</div>
+
+
+<div class="a6">
+		<a id="link" href="index.html"><p>Back to Main<p></a>
+	</div>
+	
+	
+<button onclick="toggleCSS()">
+	Switch Style    
+    </button>
+</div>
+
+
+<div class="footer">
+<footer> &copy 2023, Anthony Miltko, USF </footer>
+</div>
