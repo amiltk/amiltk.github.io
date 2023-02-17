@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <title>Premier League</title>
+       <link id='csslink' rel="stylesheet" href="main.css" />
+
+	<!-- Next is the JavaScript code that makes the "Switch Style" button work. -->
+   <script>
+	    function toggleCSS() {
+          // Obtains the <link> element that links to the css (by using its id).
+          var currentCSS = document.getElementById('csslink');
+
+          // Change the value of href attribute to change the css file.
+          if (currentCSS.getAttribute('href') == 'main.css') {
+            currentCSS.setAttribute('href', 'alternate.css');
+          } else {
+            currentCSS.setAttribute('href', 'main.css');
+          }
+      }
+  </script>
+	  
+<div class="swap">
+	<button onclick="toggleCSS()">
+	Switch Style    
+    </button>
+   </head>
+
+
+<body>
+<div class="all">
+<div class="title">
+<header> Premier League </header>
+</div>
+
+<div class="description">
+<h2>The Premier League has a total of 20 clubs and it is one of the highest levels of football that can be found in the world. (Here are 5)<h2>
+</div>
+
+<div class="navmenu">
+  <a id="link2" href="#teams">Teams</a>
+  <a id="link2" href="#standings">Standings</a>
+  <a id="link2" href="#goals">Goals Scored (Table)</a>
+  <a id="link2" href="#internal">Player Information</a>
+</div>
+<br></br>
+
+
+<a name="teams">
+<div class="teamtitle">
+<h3> Teams </h3>
+</div>
+<nav>
+
+<div class="teams">
+
+		<a id="link" href="https://www.mancity.com/" target="_blank"><img src="manc.png" width="100" height="100"><p>Manchester City</p></a>
+		<a id="link" href="https://www.arsenal.com/" target="_blank"><img src="arsenal.png" width="100" height="100"><p>Arsenal</p></a>
+		<a id="link" href="https://www.manutd.com/" target="_blank"><img src="manu.png" width="100" height="100"><p>Manchester United</p></a>
+		<a id="link" href="https://www.chelseafc.com/en" target="_blank"><img src="chelsea.png" width="100" height="100"><p>Chelsea </p></a>
+		<a id="link" href="https://www.brightonandhovealbion.com/" target="_blank"><img src="brighton.png" width="100" height="100"><p>Brighton</p></a>
+	
+<nav>
+</div>
+<div class="animation1";>
+</div>
+<a name="standings">
+<div class="standings">
+<h4> Standings <h4>
+</div>
+<div class="tables">
+	<article>
+		<ol type="1">
+			<li>Manchester City</li>
+			<li>Arsenal</li>
+			<li>Manchester United</li>
+			<li>Brighton</li>
+			<li>Chelsea</li>
+		</ol>
+	</article>
+</div>
+<div class="animation1";>
+</div>
+<a name="goals">
+<div class="goals">
+<h5> Top Goal Scorers for each of the five clubs <h5>
+</div>
+	
+<div class="tables2">		
+<table>
+  <tr>
+    <th>Goals Scored</th>
+    <th>Player Name</th>
+    <th>Club</th>
+  </tr>
+  <tr>
+	<td>26</td>
+	<td>Erling Haaland</td>
+	<td>Manchester City</td>
+  </tr>
+  <tr>
+    <td>12</td>
+    <td>Marcus Rashford</td>
+    <td>Manchester United</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>Leandro Trossard/Martin Ødegaard</td>
+    <td>Arsenal</td>
+  </tr> 
+  <tr>
+    <td>6</td>
+    <td>Pascal Groß</td>
+    <td>Brighton</td>
+	<tr>
+    <td>5</td>
+    <td>Kai Havertz</td>
+    <td>Chelsea</td>
+</table>
+</div>
+<a name="internal">
+
+<div class="header5">
+<h5> Information about the top goal scorers for each of the five clubs <h5>
+</div>
+
+<div class="internal">
+	<nav>
+		<a id="link" href="ErlingHaaland.html"><p>Erling Haaland (Manchester City)</p></a>
+		<a id="link" href="MarcusRashford.html"><p>Marcus Rashford (Manchester United)</p></a>
+		<a id="link" href="Leandro and Martin.html"><p>Leandro Trossard/Martin Ødegaard (Arsenal)</p></a>
+		<a id="link" href="Pascal Groß.html"><p>Pascal Groß (Brighton)</p></a>
+		<a id="link" href="KaiHavertz.html"><p>Kai Havertz (Chelsea)</p></a>
+	</nav>
+</div>
+
+</div>
+ </div>
+</body>
+
+
+
+<div class="footer">
+<footer> &copy 2023, Anthony Miltko, USF </footer>
+</div>
+</html>
